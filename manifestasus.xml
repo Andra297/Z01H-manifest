@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="AndroidBlobs"
+		fetch="https://github.com/AndroidBlobs"
+		revision="msm8953_64-user 9 WW_Phone-202001171115 58 release-keys" />
+
+	<remote name="Andra297"
+		fetch="https://github.com/Andra297"
+		revision="master" />
+  
+  	<remote name="LineageOS"
+		fetch="https://github.com/LineageOS"
+		revision="lineage-16.0" />
+  
+
+	<project path="device/asus/Z01H" name="android_device_ASUS_Z01H_1" remote="Andra297" revision="lineage-15.0" />
+	<project path="device/asus/Z01H" name="device-asus-Z01H" remote="Andra297" />
+	<project path="device/asus/msm8953" name="android_device_asus_msm8953-common" remote="Andra297" revision="oreo" />
+	<project path="kernel/asus/msm8953" name="android_kernel_asus_msm8953" remote="LineageOS" revision="lineage-16.0" />
+	<project path="vendor/asus/Z01H" name="vendor_asus_msm8953_64" remote="AndroidBlobs" />
+	<project path="vendor/qcom/msm8996" name="android_kernel_qcom_msm8996" remote="Andra297" revision="lineage-18.1" />
+</manifest>
